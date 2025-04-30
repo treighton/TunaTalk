@@ -64,41 +64,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
-        <div className="w-full px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
-            Cutting-Edge AI Features
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="flex flex-col items-center text-center">
-              <Cpu className="size-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">
-                Quantum-Inspired Processing
-              </h3>
-              <p className="text-gray-100">
-                Leverage our quantum-inspired algorithms for unprecedented
-                computational power and problem-solving capabilities.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <Network className="size-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">Federated Learning</h3>
-              <p className="text-gray-100">
-                Utilize decentralized AI training across multiple devices while
-                maintaining data privacy and security.
-              </p>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <Zap className="size-12 mb-4 text-primary" />
-              <h3 className="text-xl font-bold mb-2">Neuromorphic Computing</h3>
-              <p className="text-gray-100">
-                Experience AI that mimics the human brain&apos;s neural
-                structure for more efficient and adaptive learning.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       <div className="flex h-screen w-screen items-center justify-center bg-background">
         <div className="w-full max-w-md overflow-hidden rounded-2xl flex flex-col gap-12">
           <div className="flex flex-col items-center justify-center gap-2 px-4 text-center sm:px-16">
